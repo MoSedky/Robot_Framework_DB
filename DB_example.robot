@@ -7,7 +7,7 @@ Suite Setup         Connect To Database    pymysql    ${DBName}    ${DBUser}    
 *** Variables ***
 ${DBHost}         127.0.0.1
 ${DBName}         employees
-${DBPass}         Sedky24303252
+${DBPass}         password
 ${DBPort}         3306
 ${DBUser}         root
 ${Get_number_of_employees_query}         Select * from employees.employees
